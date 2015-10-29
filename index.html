@@ -7,15 +7,42 @@
   </head>
   <body>
     <img src="https://design.ubuntu.com/wp-content/uploads/logo-ubuntu_su-white_orange-hex.svg" height="150px" width="350px">
-    <h2>Commande Terminal</h2>
+    <h2 class="Titre">Commande Terminal</h2>
 
-    <table border="1px">
+    <div id="container">
+    <table border="1px" class="shadow">
+      <thead>
+        <th>Action</th>
+        <th>Commande</th>
+      </thead>
+      <tbody>
+        <caption class="titretableau1">Gérer les Packages<caption>
+          <tr>
+            <td>Maj de la liste des majs disponible</td>
+            <td>apt-get update</td>
+          </tr>
+          <tr>
+            <td>Maj des packages</td>
+            <td>apt-get upgrade</td>
+          </tr>
+          <tr>
+            <td>Installation d'un logiciel</td>
+            <td>apt-get install</td>
+          </tr>
+          <tr>
+            <td>Désinstalation</td>
+            <td>apt-get purge</td>
+          </tr>
+        </tbody>
+      </table>
+
+    <table border="1px" class="Schnee">
       <thead>
         <th>Action</th>
         <th>Commande</th>
       </thead>
      <tbody>
-       <caption>Agir sur un Ficher/Dossier</caption>
+       <caption class="titretableau1">Agir sur un Ficher/Dossier</caption>
           <tr>
             <td>Passer en mode super utilisateur</td>
             <td>sudo</td>
@@ -62,33 +89,6 @@
          </tr>
     </tbody>
   </table>
-
-  <table border="1px">
-    <thead>
-      <th>Action</th>
-      <th>Commande</th>
-    </thead>
-    <tbody>
-      <caption>Gérer les Packages<caption>
-        <tr>
-          <td>Maj de la liste des majs disponible</td>
-          <td>apt-get update</td>
-        </tr>
-        <tr>
-          <td>Maj des packages</td>
-          <td>apt-get upgrade</td>
-        </tr>
-        <tr>
-          <td>Installation d'un logiciel</td>
-          <td>apt-get install</td>
-        </tr>
-        <tr>
-          <td>Désinstalation</td>
-          <td>apt-get purge</td>
-        </tr>
-      </tbody>
-    </table>
-    
-
+</div>
   </body>
 </html>
