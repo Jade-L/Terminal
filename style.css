@@ -1,7 +1,8 @@
 body {
      background-image:url(http://www.mygamerplace.com/wp-content/uploads/2015/06/life-is-strange-title.jpg);
-     background-attachement: fixed;
+     background-attachment: fixed;
      background-size: 100%;
+     background-repeat: no-repeat;
 }
 
 #container {
