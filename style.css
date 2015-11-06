@@ -41,3 +41,9 @@ li {
     font-size: 4em;
   }
 }
+
+@media screen and (max-width: 1024px) {
+  title {
+    font-size: 3em;
+  }
+}
