@@ -46,4 +46,8 @@ li {
   h2 {
     font-size: 3em;
   }
+
+  article h2 {
+    font-size: 3em;
+  }
 }
