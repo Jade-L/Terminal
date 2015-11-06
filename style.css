@@ -43,7 +43,7 @@ li {
 }
 
 @media screen and (max-width: 1024px) {
-  title {
+  .Titre {
     font-size: 3em;
   }
 }
